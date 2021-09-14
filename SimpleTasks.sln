@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogsoft.SimpleTasks.Library", "Fogsoft.SimpleTasks.Library\Fogsoft.SimpleTasks.Library.csproj", "{22674C85-E0B2-4B21-8D00-EF4F0FC1E51C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogsoft.SimpleTasks.Tests", "Fogsoft.SimpleTasks.Tests\Fogsoft.SimpleTasks.Tests.csproj", "{C2394150-BE5C-4DEB-8A5A-BDAB7016D3DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root Items", "Root Items", "{5678A52B-AC7F-4D33-BE33-FBE54063113C}"
+ProjectSection(SolutionItems) = preProject
+	CreateTables.sql = CreateTables.sql
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22674C85-E0B2-4B21-8D00-EF4F0FC1E51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22674C85-E0B2-4B21-8D00-EF4F0FC1E51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22674C85-E0B2-4B21-8D00-EF4F0FC1E51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22674C85-E0B2-4B21-8D00-EF4F0FC1E51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2394150-BE5C-4DEB-8A5A-BDAB7016D3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2394150-BE5C-4DEB-8A5A-BDAB7016D3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2394150-BE5C-4DEB-8A5A-BDAB7016D3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2394150-BE5C-4DEB-8A5A-BDAB7016D3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
